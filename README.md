@@ -1,70 +1,64 @@
-#🤖 Telegram GPT-бот
 
-Мій перший Telegram-бот, створений на Python із використанням ChatGPT.
-Бот може спілкуватися з користувачем, показувати випадкові факти та виконувати інші цікаві дії.
-Проєкт зроблено як навчальний — для практики роботи з Aiogram і OpenAI API.
+# Telegram GPT bot
 
-##✨ Можливості бота
+My first Telegram bot, created in Python using ChatGPT.
 
-💬 Привітання користувача після команди /start
+The bot can communicate with the user, show random facts and perform other interesting actions.
 
-🎲 Показує випадкове зображення і цікавий факт (/random)
+The project is made as an educational one — for practice working with Aiogram and OpenAI API.
 
-🔘 Має зручні кнопки:
+________________________________________
 
-«Хочу ще факт» — показує новий факт
+### ✨ Bot capabilities
 
-«Закінчити» — повертає до головного меню
+• User selects a command after a command (/start)
 
-🧠 Можна легко додавати інші команди — наприклад, вікторину або GPT-спілкування
+• Shows a random image and an interesting fact (/random)
 
-##🛠 Використані технології
+• Has a dialogue with a famous person (/talk)
 
-Python 3.10+
+• Conducts a quiz (/quiz)
 
-Aiogram — робота з Telegram API
+• Performs translation (/translate)
 
-OpenAI API (ChatGPT) — генерація тексту
+• Conducts a game with a dice (/roll)
+________________________________________
 
-python-dotenv — безпечне зберігання токенів
+### 🛠 Technologies used
 
-Git + GitHub — для керування проєктом
+• Python 3.10+
 
-##🚀 Як запустити бота локально
+• Aiogram — working with Telegram API
 
-Склонуй репозиторій:
+• OpenAI API (ChatGPT) — text generation
 
+• python-dotenv — secure token storage
+
+• Git + GitHub — for project management
+________________________________________________
+
+### 🚀 How to run the bot locally
+
+1. Clone the repository:
 git clone https://github.com/OksanaMykich/telegram-gpt-bot.git
-
-
-Перейди до папки проєкту:
-
+2. Go to the project folder:
 cd telegram-gpt-bot
-
-
-Встанови бібліотеки:
-
+3. Install libraries:
 pip install -r requirements.txt
-
-
-Створи файл .env:
-
-BOT_TOKEN=твій_токен_бота
-OPENAI_API_KEY=твій_API_ключ
-
-
-##Запусти бота:
-
+4. Create a .env file:
+BOT_TOKEN=your_bot_token
+OPENAI_API_KEY=your_API_key
+5. Run the bot:
 python main.py
+______________________________________
 
-##🔒 Безпека
+### 🔒 Security
 
-Файл .env не завантажується на GitHub — він захищений у .gitignore
+• The .env file is not uploaded to GitHub — it is protected in .gitignore
 
-Для прикладу використовується .env.example, який показує структуру файлу
+• The .env.example is used for the example, which shows the file structure
+_______________________________________
 
-##👩‍💻 Автор
+Author: Oksana Mykich
 
-Oksana Mykich
-Навчальний проєкт для практики створення Telegram-ботів з ChatGPT 💬
-
+A training project for practicing creating Telegram bots with ChatGPT 💬
