@@ -40,7 +40,7 @@ ________________________________________________
 ### 🚀 How to run the bot locally
 
 1. Clone the repository:
-git clone https://github.com/OksanaMykich/telegram-gpt-bot.git
+git clone https://github.com/OksanaMykich/GPT_telegram_bot.git
 2. Go to the project folder:
 cd telegram-gpt-bot
 3. Install libraries:
